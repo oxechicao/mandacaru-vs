@@ -1,0 +1,27 @@
+{
+	"name": "mandacaru-syntax-theme",
+	"displayName": "Mandacaru Syntax Theme",
+	"description": "Vibrant colors, and an atmosphere reminiscent of the Brazilian Northeast's backlands",
+	"version": "0.0.1",
+	"publisher": "oxechicao",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/oxechicao/mandacaru-vs"
+	},
+	"icon": "turnstyle.png",
+	"engines": {
+		"vscode": "^1.104.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Mandacaru",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Mandacaru-theme.json"
+			}
+		]
+	}
+}
